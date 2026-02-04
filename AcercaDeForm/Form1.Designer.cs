@@ -1,4 +1,4 @@
-﻿namespace IMC
+﻿namespace AcercaDeForm
 {
     partial class Form1
     {
