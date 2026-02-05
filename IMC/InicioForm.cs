@@ -72,13 +72,28 @@ namespace IMC
         [System.Runtime.InteropServices.DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, int nWidthEllipse, int nHeightEllipse);
 
-        // --- AQUÍ ABAJO IRÁN LOS CLICS DE TUS BOTONES ---
-        // Por ejemplo, da doble clic en el botón en el diseñador para que se cree esto:
-
-        /* private void btnIngresar_Click(object sender, EventArgs e)
+        private void btnIngresar_Click(object sender, EventArgs e)
         {
-             // Código para ir al siguiente form
+            CapturaDatosForm capturaForm = new CapturaDatosForm();
+            this.Hide();
         }
-        */
+
+        private void btnInfo_Click(object sender, EventArgs e)
+        {
+            string mensaje = "Esta aplicación calcula el Índice de Masa Corporal (IMC) " +
+                             "y proporciona información sobre el estado de salud " +
+                             "basado en el IMC calculado.\n\n" +
+                             "Desarrollado por: \n"+ 
+                             "Miguel Adrian Rivera Jaime\n" +
+                             "Jose Fernando Hernandez Mendoza\n"+
+                             "Eduardo Pat Maldonado\n"+
+                             "Sebastian Hernandez Quintana\n"+
+                             "Versión: 1.0.0\n\n" +
+                             "Instrucciones:\n" +
+                             "1. Haz clic en 'Ingresar' para ahora poder introducir tu peso y altura.\n" +
+                             "2. La aplicación calculará tu IMC y te mostrará los resultados.\n\n" +
+                             "¡Gracias por usar nuestra calculadora IMC!";
+            MessageBox.Show(mensaje, "Acerca del Equipo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

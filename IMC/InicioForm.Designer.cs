@@ -41,6 +41,7 @@
             this.btnIngresar.TabIndex = 0;
             this.btnIngresar.Text = "Start";
             this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // btnInfo
             // 
@@ -50,6 +51,7 @@
             this.btnInfo.TabIndex = 1;
             this.btnInfo.Text = "Info";
             this.btnInfo.UseVisualStyleBackColor = true;
+            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
             // 
             // lblTitulo
             // 
