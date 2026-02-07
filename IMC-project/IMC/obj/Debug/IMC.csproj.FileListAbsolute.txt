@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\IMC-project\IMC\bin\Debug\IMC.exe.config
+C:\Users\admin\source\repos\IMC-project\IMC\bin\Debug\IMC.exe
+C:\Users\admin\source\repos\IMC-project\IMC\bin\Debug\IMC.pdb
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.CapturaDatosForm.resources
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.Form1.resources
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.Properties.Resources.resources
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.ResultadoForm.resources
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.exe
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.pdb
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.imcAlto.resources
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.ImcBajo.resources
+C:\Users\admin\source\repos\IMC-project\IMC\obj\Debug\IMC.imcNormal.resources
