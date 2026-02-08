@@ -61,21 +61,23 @@
             // 
             this.btnCalcular.Location = new System.Drawing.Point(41, 167);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcular.Size = new System.Drawing.Size(144, 47);
             this.btnCalcular.TabIndex = 2;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click_1);
             // 
             // txtPeso
             // 
-            this.txtPeso.Location = new System.Drawing.Point(79, 9);
+            this.txtPeso.Location = new System.Drawing.Point(125, 9);
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(100, 20);
             this.txtPeso.TabIndex = 3;
+            this.txtPeso.TextChanged += new System.EventHandler(this.txtPeso_TextChanged);
             // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(79, 55);
+            this.txtAltura.Location = new System.Drawing.Point(125, 52);
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(100, 20);
             this.txtAltura.TabIndex = 4;

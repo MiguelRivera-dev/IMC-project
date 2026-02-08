@@ -63,5 +63,63 @@ namespace IMC
                 MessageBox.Show("Por favor ingresa números válidos.");
             }
         }
+
+        private void btnCalcular_Click_1(object sender, EventArgs e)
+        {
+
+            // Sacamos el valor de las cajas de texto para el calculo
+            float weight;
+            float height;
+
+            // Con este if verificamos que los valores del peso sean validos
+            if (float.TryParse(txtPeso.Text, out weight))
+            {
+                // Con este if verificamos que los valores de la altura sean validos
+                if (float.TryParse(txtAltura.Text, out height))
+                {
+                    // Formula para calcular el imc
+                    double imc = weight / (height * height);
+                    // Verificacion de los resultados para ver el camino a seguir
+                    
+                    // if para el imc bajo
+                    if (imc < 18.49)
+                    {
+                        ImcBajo imcBajo = new ImcBajo();
+                        imcBajo.Show();
+
+                    }   // if para el imc normal
+                    else if (imc > 18.49 && imc < 24.99)
+                    {
+                        imcNormal Normal = new imcNormal();
+                        Normal.Show();
+                    }
+                    else   // else para el imc alto
+                    {
+                        imcAlto Alto = new imcAlto();
+                        Alto.Show();
+                    }
+
+                    // Cierra la ventana anterior osea la de este codigo
+                    this.Close();
+                }
+                else // El else verifica que la altura sea un valor valido
+                {
+                    MessageBox.Show("Ingresa un valor valido");
+                }
+            }
+            else // El else verifica que el peso sea un valor valido
+            {
+                MessageBox.Show("Ingresa un valor valido");
+            }
+
+            
+            
+            
+        }
+
+        private void txtPeso_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

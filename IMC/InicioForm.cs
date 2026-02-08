@@ -76,6 +76,8 @@ namespace IMC
         {
             CapturaDatosForm capturaForm = new CapturaDatosForm();
             this.Hide();
+            CapturaDatosForm FCapDatos = new CapturaDatosForm();
+            FCapDatos.Show();
         }
 
         private void btnInfo_Click(object sender, EventArgs e)
